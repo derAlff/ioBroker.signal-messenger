@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "signal-messenger",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Signal Messenger",
+		"titleLang": {
+			"en": "Signal Messenger",
+			"de": "Signalbote",
+			"ru": "Сигнальный мессенджер",
+			"pt": "Mensageiro de sinal",
+			"nl": "Signaal Messenger",
+			"fr": "Messager de signal",
+			"it": "Messaggero di segnali",
+			"es": "Mensajero de señal",
+			"pl": "Komunikator sygnału",
+			"zh-cn": "信号使者"
+		},
+		"desc": {
+			"en": "Send messages via Signal Messenger",
+			"de": "Senden Sie Nachrichten über Signal Messenger",
+			"ru": "Отправляйте сообщения через Signal Messenger",
+			"pt": "Envie mensagens pelo Signal Messenger",
+			"nl": "Berichten verzenden via Signal Messenger",
+			"fr": "Envoyer des messages via Signal Messenger",
+			"it": "Invia messaggi tramite Signal Messenger",
+			"es": "Enviar mensajes a través de Signal Messenger",
+			"pl": "Wysyłaj wiadomości przez Signal Messenger",
+			"zh-cn": "通过 Signal Messenger 发送消息"
+		},
+		"authors": [
+			"derAlff <deralff@gmail.com>"
+		],
+		"keywords": [
+			"messenger",
+			"signal"
+		],
+		"license": "GPL-3.0",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "signal-messenger.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/necotec/ioBroker.signal-messenger/main/admin/signal-messenger.png",
+		"readme": "https://github.com/necotec/ioBroker.signal-messenger/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "messaging",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
